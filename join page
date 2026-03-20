@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join Coding Society</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+}
+
+header{
+background:#2803f8;
+color:rgb(13, 0, 0);
+padding:15px;
+}
+
+main{
+padding:20px;
+}
+
+form{
+max-width:400px;
+}
+
+label{
+display:block;
+margin-top:10px;
+}
+
+input, textarea{
+width:100%;
+padding:8px;
+margin-top:5px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+button{
+margin-top:15px;
+padding:10px;
+background: #000;
+color:white;
+border:none;
+cursor:pointer;
+
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Join Coding Society</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="events.html">Events</a>
+<a href="join.html">Join</a>
+</nav>
+</header>
+
+<main>
+
+<form id="joinForm">
+
+
+        <h1>Registeration Form</h1>
+        <label for="fullname">Full Name<br></label>
+        <input type="text" id="fullname" placeholder="Enter your full name" name="fullname" required><br><br>
+        <label for="username">Username<br></label>
+        <input type="text" id="username" placeholder="Enter username" name="username" required><br><br>
+        <label for="password">Password<br></label>
+        <input type="password" id="password" placeholder="Enter Password" name="password" required><br><br>
+        <label for="dob">Date Of Birth<br></label>
+        <input type="date" id="dod" placeholder="Enter date of birth" name="username" required><br><br>
+        <label for="nationality">Nationality<br></label>
+        <input type="text" id="nationality" placeholder="Enter your nationality" name="nationality" required><br><br>
+        <label for="school attended">School Attended<br></label>
+        <input type="text" id="School Attended" placeholder="School Attended" name="school Attended" required><br><br>
+        <label for="national id">National id<br></label>
+        <input type="text" id="national id" placeholder="Enter your national id" name="national id" required><br><br>
+        <label for="drivers licence">Drivers Lisence<br></label>
+        <input type="text" id="drivers lisence" placeholder="Drivers Lisence" name="drivers lisence" required><br><br>
+        <label for="number plate">Number Plate<br></label>
+        <input type="text" id="number plate" placeholder="Number Plate" name="number plate" required><br><br>
+        <input type="submit" value="Login">
+        
+        
+
+
+
+        
+    </form>
+
+</body>
+</html>
