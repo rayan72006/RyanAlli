@@ -1,1 +1,88 @@
-# RyanAlli
+# RyanAlli[about.html](https://github.com/user-attachments/files/26142873/about.html)
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Coding Society</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+}
+
+header{
+background:#2803f8;
+color:rgb(13, 0, 0);
+padding:15px;
+}
+
+nav a{
+color:white;
+margin-right:15px;
+text-decoration:none;
+}
+
+main{
+padding:20px;
+}
+
+footer{
+background:#2803f8;
+color:rgb(13, 0, 0);
+text-align:center;
+padding:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Coding Society</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="events.html">Events</a>
+<a href="join.html">Join</a>
+</nav>
+
+</header>
+
+<main>
+
+<section>
+
+<h2>About Our Club</h2>
+
+<p>The Coding Society is a student club that helps members learn programming
+and work on real-world projects.</p>
+
+<p>Students collaborate on web development, mobile apps, and AI projects.</p>
+
+</section>
+
+<section>
+
+<h2>Our Mission</h2>
+
+<p>Our mission is to create a supportive community where students can
+develop coding skills and prepare for careers in technology.</p>
+
+</section>
+
+</main>
+
+<footer>
+<p>© 2026 Coding Society</p>
+</footer>
+
+</body>
+</html>
