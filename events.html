@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+}
+
+header{
+background:#2803f8;
+color:rgb(13, 0, 0);
+padding:15px;
+}
+
+.tabs{
+margin:20px;
+}
+
+button{
+padding:10px;
+margin-right:10px;
+cursor:pointer;
+}
+
+.tab-content{
+padding:20px;
+}
+
+.hidden{
+display:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Coding Society Events</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="events.html">Events</a>
+<a href="join.html">Join</a>
+</nav>
+</header>
+
+
+<main>
+
+<h2>Upcoming Events</h2>
+
+<div class="tabs">
+
+<button onclick="showTab('workshop')">Workshops</button>
+<button onclick="showTab('hackathon')">Hackathons</button>
+
+</div>
+
+<div id="workshop" class="tab-content">
+<h3>Web Development Workshop</h3>
+<p>Learn HTML, CSS and JavaScript basics.</p>
+</div>
+
+<div id="hackathon" class="tab-content hidden">
+<h3>Annual Hackathon</h3>
+<p>48-hour coding competition with prizes.</p>
+</div>
+
+</main>
+
+<script>
+
+function showTab(tab){
+
+document.getElementById("workshop").classList.add("hidden");
+document.getElementById("hackathon").classList.add("hidden");
+
+document.getElementById(tab).classList.remove("hidden");
+
+}
+
+</script>
+
+</body>
+</html>
